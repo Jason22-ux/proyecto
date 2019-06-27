@@ -1,4 +1,6 @@
-<?php
+﻿<?php
+//Conexion a bd
+
 include "admin/db.php";
 $db=con();
 error_reporting (0);
@@ -12,7 +14,10 @@ $encabezados=get_sec_encabezados();
  
 
 ?>
+
+
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
